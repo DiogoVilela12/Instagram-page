@@ -1,0 +1,96 @@
+:root{
+    --gray-border: rgb(219,219,219);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: rgb(250, 250, 250);
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cell-phone-img {
+    height: 600px;
+    width: 100%;
+}
+
+.principal-box {
+    height: 320px;
+    width: 350px;
+    margin-top: 50px;
+    border: 1px solid var(--gray-border);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-logo {
+    margin-top: 20px;
+    padding: 0px;
+    height: 51px;
+    width: 175px;
+}
+
+.profile-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.button-continue {
+    background-color: #0095F6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    width: 250px;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.button-remove {
+    color: #0095F7;
+    border: none;
+    background: transparent;
+    font-weight: bold;
+}
+
+.secundary-box {
+    margin-top: 20px;
+    border: 1px solid var(--gray-border);
+    padding: 15px 0px 15px 0px;
+    width: 350px;
+    text-align: center;
+}
+
+.sing-in-link {
+    color: #0095F6;
+    text-decoration: none;
+}
+
+.get-app {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.download-buttons {
+    height: 75px;
+    width: 174px;
+}
+
+@media (max-width: 700px) {
+    .cell-phone-img {
+        display: none;
+    }
+}
